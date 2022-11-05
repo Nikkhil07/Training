@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body background="Assests/images/lkl.webp">
+<center> 
+    <h1><i>REGESTRATION FORM</i> </h1>
+   
+    <form action="#">
+        <table  border="4" cellspacing="10px" cellpadding="10 px">
+            <tr>
+                <th>FIRST NAME:</th>
+                <td>
+                    <input type="text"  autofocus required placeholder="FIRST NAME">
+                </td>
+            </tr>
+            <tr>
+                <th>LAST NAME:</th>
+                <td>
+                    <input type="text" required placeholder="LAST NAME">
+                </td>
+            </tr>
+            <tr>
+                <th>DOB:</th>
+                <td>
+                    <input type="date" placeholder="DOB" required>
+                </td>
+            </tr>
+            <tr>
+                <th>EMAIL:</th>
+                <td>
+                    <input type="email" required placeholder="EMAIL">
+                </td>
+            </tr>
+            <tr>
+                <th><label>Are you 18+?</label></th>
+                <td><label>YES</label><input type="radio" name="rr" id="tt"> </td>
+                <td><label>NO</label><input type="radio" name="rr" id="tt"> </td>
+                
+            </tr>
+            <label>FILL ALL DETAILS CORRECTLY </label>
+            <tr>
+                <th><label>STATE:</label></th>
+                <td><select reduired>
+                    <option value="">--SELECT--</option>
+                    <option value="">BIHAR</option>
+                    <option value="">U.P</option>
+                    <option value="">GUJARAT</option>
+                    <option value="">MAHARASHTRA</option>
+                    <option value="">ARUNACHAL PRADESH</option>
+                    <option value="">SIKKIM</option>
+                    <option value="">RAJASTHAN</option>
+                    <option value="">HARAYANA</option>
+                    <option value="">GOA</option>
+                    <option value="">ASSAM</option>
+                    <option value="">ODISHA</option>
+                    <option value="">NAGALAND</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>CITY:</th>
+                <td>
+                    <input type="text" placeholder="CITY" required>
+                </td>
+            </tr>
+            <tr>
+                <th>PINCODE:</th>
+                <td>
+                    <input type="" placeholder="PINCODE" required>
+                </td>
+            </tr>
+            <tr>
+                <th>CONTACT NO. :</th>
+                <td>
+                   <select>
+                    <option value="">+122</option>
+                    <option value="">+91</option>
+                    <option value="">+0612</option>
+                    <option value="">+101</option>
+                    <option value="">+1313</option>
+                    <option value="">+1278</option>
+                    <option value="">+100</option>
+                    <option value="">+9110</option>
+                    <option value="">+1229</option>
+                    <option value="">+1228</option>
+                    <option value="">+1221</option>
+                    <option value="">+1001</option>
+                    <option value="">+126</option>
+                    <option value="">+1227</option>
+                    <option value="">+1232</option>
+                    <option value="">+1210</option>
+                   </select>
+
+                    </option>
+                    <input type="" placeholder="CONTACT" required>
+                </td>
+            </tr>
+            <tr>
+                <th>GENDER</th>
+                <td>
+                    <label>MALE</label><input type="radio" name="gender" id="">
+                    <label>FEMALE</label><input type="radio" name="gender" id="">
+                    <label>OTHERS</label><input type="radio" name="gender" id="">
+                </td>
+            </tr>
+            <tr>
+                <th><label>Are you in SCHOOL/COLLEGE?</label required></th>
+                <td><label>SCHOOL</label><input type="radio" name="rr" id="tt"> </td>
+                <td><label>COLLEGE</label><input type="radio" name="rr" id="tt"> </td>
+                
+            </tr>
+            <tr>
+                <th>SCHOOL/COLLEGE NAME:</th>
+                <td>
+                    <input type="" placeholder="SCHOOL/COLLEGE NAME" required>
+                </td>
+            </tr>
+            <tr>
+                <th><label>CASTE:</label reduired></th>
+                <td><label>GENERAL</label><input type="radio" name="rr" id="tt"> </td>
+                <td><label>OBC</label><input type="radio" name="rr" id="tt"> </td>
+                <td><label>SC/ST</label><input type="radio" name="rr" id="tt"> </td>
+                
+            </tr>
+            <tr>
+                <th>SCHOOL/COLLEGE MARKS(%):</th>
+                <td>
+                    <input type="number" placeholder="marks" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit">
+                </td>
+            </tr>
+
+        </table>
+        
+       
+    </form>
+</center>
+    
+</body>
+</html>
